@@ -1,0 +1,69 @@
+Selected 5 articles
+
+[
+  {
+    "title": "Top 5 Open-Source LLM Evaluation Platforms",
+    "url": "https://www.kdnuggets.com/top-5-open-source-llm-evaluation-platforms",
+    "published": "2025-12-08T18:40:01+00:00",
+    "date_verified": true,
+    "description": "If you’re building an LLM app, these open-source tools help you test, track, and improve your model’s performance easily.",
+    "source": "KDnuggets",
+    "source_url": "https://www.kdnuggets.com/feed",
+    "author": "Kanwal Mehreen",
+    "tags": []
+  },
+  {
+    "title": "Instacart and OpenAI partner on AI shopping experiences",
+    "url": "https://openai.com/index/instacart-partnership",
+    "published": "2025-12-08T11:00:00+00:00",
+    "date_verified": true,
+    "description": "OpenAI and Instacart are deepening their longstanding partnership by bringing the first fully integrated grocery shopping and Instant Checkout payment app to ChatGPT.",
+    "source": "OpenAI News",
+    "source_url": "https://openai.com/blog/rss.xml",
+    "author": "",
+    "tags": []
+  },
+  {
+    "title": "The state of enterprise AI",
+    "url": "https://openai.com/index/the-state-of-enterprise-ai-2025-report",
+    "published": "2025-12-08T09:00:00+00:00",
+    "date_verified": true,
+    "description": "Key findings from OpenAI’s enterprise data show accelerating AI adoption, deeper integration, and measurable productivity gains across industries in 2025.",
+    "source": "OpenAI News",
+    "source_url": "https://openai.com/blog/rss.xml",
+    "author": "",
+    "tags": []
+  },
+  {
+    "title": "Quoting Cory Doctorow",
+    "url": "https://simonwillison.net/2025/Dec/7/cory-doctorow/#atom-everything",
+    "published": "2025-12-08T02:28:28+00:00",
+    "date_verified": true,
+    "description": "<blockquote cite=\"https://pluralistic.net/2025/12/05/pop-that-bubble/#u-washington\"><p>Now I want to talk about <em>how</em> they're selling AI. The growth narrative of AI is that AI will disrupt labor markets. I use \"disrupt\" here in its most disreputable, tech bro sense.</p>\n<p>The promise of AI – the promise AI companies make to investors – is that there will be AIs that can do your job, and when your boss fires you and replaces you with AI, he will keep half of your salary for himself, and give the other half to the AI company.</p>\n<p>That's it.</p>\n<p>That's the $13T growth story that MorganStanley is telling. It's why big investors and institutionals are giving AI companies hundreds of billions of dollars. And because <em>they</em> are piling in, normies are also getting sucked in, risking their retirement savings and their family's financial security.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://pluralistic.net/2025/12/05/pop-that-bubble/#u-washington\">Cory Doctorow</a>, The Reverse Centaur’s Guide to Criticizing AI</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/cory-doctorow\">cory-doctorow</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a></p>",
+    "source": "Simon Willison's Weblog",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "author": "",
+    "tags": [
+      "cory-doctorow",
+      "ai-ethics",
+      "ai"
+    ]
+  },
+  {
+    "title": "Using LLMs at Oxide",
+    "url": "https://simonwillison.net/2025/Dec/7/using-llms-at-oxide/#atom-everything",
+    "published": "2025-12-08T02:28:17+00:00",
+    "date_verified": true,
+    "description": "<p><strong><a href=\"https://rfd.shared.oxide.computer/rfd/0576\">Using LLMs at Oxide</a></strong></p>\nThoughtful guidance from Bryan Cantrill, who evaluates applications of LLMs against Oxide's core values of responsibility, rigor, empathy, teamwork, and urgency.\n\n    <p><small></small>Via <a href=\"https://lobste.rs/s/t5zgds/using_llms_at_oxide\">Lobste.rs</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/oxide\">oxide</a>, <a href=\"https://simonwillison.net/tags/bryan-cantrill\">bryan-cantrill</a></p>",
+    "source": "Simon Willison's Weblog",
+    "source_url": "https://simonwillison.net/atom/everything/",
+    "author": "",
+    "tags": [
+      "ai",
+      "generative-ai",
+      "llms",
+      "oxide",
+      "bryan-cantrill"
+    ]
+  }
+]

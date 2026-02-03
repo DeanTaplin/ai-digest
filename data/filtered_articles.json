@@ -1,0 +1,164 @@
+{
+  "metadata": {
+    "generated_at": "2026-01-15T12:31:28.297165+00:00",
+    "total_collected": 687,
+    "high_scoring": 187,
+    "selected": 8,
+    "arxiv_limit": 3
+  },
+  "articles": [
+    {
+      "article": {
+        "title": "MemRec: Collaborative Memory-Augmented Agentic Recommender System",
+        "url": "https://arxiv.org/abs/2601.08816",
+        "published": "2026-01-15T10:00:00+00:00",
+        "date_verified": true,
+        "description": "arXiv:2601.08816v1 Announce Type: cross \nAbstract: The evolution of recommender systems has shifted preference storage from rating matrices and dense embeddings to semantic memory in the agentic era. Yet existing agents rely on isolated memory, overlooking crucial collaborative signals. Bridging this gap is hindered by the dual challenges of distilling vast graph contexts without overwhelming reasoning agents with cognitive load, and evolving the collaborative memory efficiently without incurring prohibitive computational costs. To address this, we propose MemRec, a framework that architecturally decouples reasoning from memory management to enable efficient collaborative augmentation. MemRec introduces a dedicated, cost-effective LM_Mem to manage a dynamic collaborative memory graph, serving synthesized, high-signal context to a downstream LLM_Rec. The framework operates via a practical pipeline featuring efficient retrieval and cost-effective asynchronous graph propagation that evolves memory in the background. Extensive experiments on four benchmarks demonstrate that MemRec achieves state-of-the-art performance. Furthermore, architectural analysis confirms its flexibility, establishing a new Pareto frontier that balances reasoning quality, cost, and privacy through support for diverse deployments, including local open-source models. Code:https://github.com/rutgerswiselab/memrec and Homepage: https://memrec.weixinchen.com",
+        "source": "cs.AI updates on arXiv.org",
+        "source_url": "https://export.arxiv.org/rss/cs.AI",
+        "author": "Weixin Chen, Yuhan Zhao, Jingyuan Huang, Zihe Ye, Clark Mingxuan Ju, Tong Zhao, Neil Shah, Li Chen, Yongfeng Zhang",
+        "tags": [
+          "cs.IR",
+          "cs.AI"
+        ]
+      },
+      "score": 95,
+      "category": "Production Use Cases"
+    },
+    {
+      "article": {
+        "title": "Simulating the Visual World with Artificial Intelligence: A Roadmap",
+        "url": "https://arxiv.org/abs/2511.08585",
+        "published": "2026-01-15T10:00:00+00:00",
+        "date_verified": true,
+        "description": "arXiv:2511.08585v2 Announce Type: replace \nAbstract: The landscape of video generation is shifting, from a focus on generating visually appealing clips to building virtual environments that support interaction and maintain physical plausibility. These developments point toward the emergence of video foundation models that function not only as visual generators but also as implicit world models, models that simulate the physical dynamics, agent-environment interactions, and task planning that govern real or imagined worlds. This survey provides a systematic overview of this evolution, conceptualizing modern video foundation models as the combination of two core components: an implicit world model and a video renderer. The world model encodes structured knowledge about the world, including physical laws, interaction dynamics, and agent behavior. It serves as a latent simulation engine that enables coherent visual reasoning, long-term temporal consistency, and goal-driven planning. The video renderer transforms this latent simulation into realistic visual observations, effectively producing videos as a \"window\" into the simulated world. We trace the progression of video generation through four generations, in which the core capabilities advance step by step, ultimately culminating in a world model, built upon a video generation model, that embodies intrinsic physical plausibility, real-time multimodal interaction, and planning capabilities spanning multiple spatiotemporal scales. For each generation, we define its core characteristics, highlight representative works, and examine their application domains such as robotics, autonomous driving, and interactive gaming. Finally, we discuss open challenges and design principles for next-generation world models, including the role of agent intelligence in shaping and evaluating these systems. An up-to-date list of related works is maintained at this link.",
+        "source": "cs.AI updates on arXiv.org",
+        "source_url": "https://export.arxiv.org/rss/cs.AI",
+        "author": "Jingtong Yue, Ziqi Huang, Zhaoxi Chen, Xintao Wang, Pengfei Wan, Ziwei Liu",
+        "tags": [
+          "cs.AI",
+          "cs.CV"
+        ]
+      },
+      "score": 95,
+      "category": "Frameworks & Tools"
+    },
+    {
+      "article": {
+        "title": "LocalSearchBench: Benchmarking Agentic Search in Real-World Local Life Services",
+        "url": "https://arxiv.org/abs/2512.07436",
+        "published": "2026-01-15T10:00:00+00:00",
+        "date_verified": true,
+        "description": "arXiv:2512.07436v2 Announce Type: replace \nAbstract: Recent advances in large reasoning models LRMs have enabled agentic search systems to perform complex multi-step reasoning across multiple sources. However, most studies focus on general information retrieval and rarely explores vertical domains with unique challenges. In this work, we focus on local life services and introduce LocalSearchBench, which encompass diverse and complex business scenarios. Real-world queries in this domain are often ambiguous and require multi-hop reasoning across merchants and products, remaining challenging and not fully addressed. As the first comprehensive benchmark for agentic search in local life services, LocalSearchBench comprises a database of over 1.3M merchant entries across 6 service categories and 9 major cities, and 900 multi-hop QA tasks from real user queries that require multi-step reasoning. We also developed LocalPlayground, a unified environment integrating multiple tools for LRMs interaction. Experiments show that even state-of-the-art LRMs struggle on LocalSearchBench: the best model (DeepSeek-V3.2) achieves only 35.60% correctness, and most models have issues with completeness (average 60.32%) and faithfulness (average 30.72%). This highlights the need for specialized benchmarks and domain-specific agent training in local life services. Code, Benchmark, and Leaderboard are available at https://localsearchbench.github.io/.",
+        "source": "cs.AI updates on arXiv.org",
+        "source_url": "https://export.arxiv.org/rss/cs.AI",
+        "author": "Hang He, Chuhuai Yue, Chengqi Dong, Mingxue Tian, Hao Chen, Zhenfeng Liu, Jiajun Chai, Xiaohan Wang, Yufei Zhang, Qun Liao, Guojun Yin, Wei Lin, Chengcheng Wan, Haiying Sun, Ting Su",
+        "tags": [
+          "cs.AI"
+        ]
+      },
+      "score": 95,
+      "category": "Production Use Cases"
+    },
+    {
+      "article": {
+        "title": "Choosing the Right Multi-Agent Architecture",
+        "url": "https://www.blog.langchain.com/choosing-the-right-multi-agent-architecture/",
+        "published": "2026-01-14T23:06:14+00:00",
+        "date_verified": true,
+        "description": "In this post, we’ll explore when multi-agent architectures become necessary, the four main patterns we’ve observed, and how LangChain empowers you to effectively build multi-agent systems.",
+        "source": "LangChain Blog",
+        "source_url": "https://blog.langchain.dev/rss/",
+        "author": "Sydney Runkle",
+        "tags": []
+      },
+      "score": 95,
+      "category": "Research & Breakthroughs"
+    },
+    {
+      "article": {
+        "title": "Claude Cowork Exfiltrates Files",
+        "url": "https://simonwillison.net/2026/Jan/14/claude-cowork-exfiltrates-files/#atom-everything",
+        "published": "2026-01-15T03:15:22+00:00",
+        "date_verified": true,
+        "description": "<p><strong><a href=\"https://www.promptarmor.com/resources/claude-cowork-exfiltrates-files\">Claude Cowork Exfiltrates Files</a></strong></p>\nClaude Cowork defaults to allowing outbound HTTP traffic to only a specific list of domains, to help protect the user against prompt injection attacks that exfiltrate their data.</p>\n<p>Prompt Armor found a creative workaround: Anthropic's API domain is on that list, so they constructed an attack that includes an attacker's own Anthropic API key and has the agent upload any files it can see to the <code>https://api.anthropic.com/v1/files</code> endpoint, allowing the attacker to retrieve their content later.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=46622328\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/prompt-injection\">prompt-injection</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/exfiltration-attacks\">exfiltration-attacks</a>, <a href=\"https://simonwillison.net/tags/ai-agents\">ai-agents</a>, <a href=\"https://simonwillison.net/tags/claude-code\">claude-code</a>, <a href=\"https://simonwillison.net/tags/lethal-trifecta\">lethal-trifecta</a>, <a href=\"https://simonwillison.net/tags/claude-cowork\">claude-cowork</a></p>",
+        "source": "Simon Willison's Weblog",
+        "source_url": "https://simonwillison.net/atom/everything/",
+        "author": "",
+        "tags": [
+          "security",
+          "ai",
+          "prompt-injection",
+          "generative-ai",
+          "llms",
+          "anthropic",
+          "exfiltration-attacks",
+          "ai-agents",
+          "claude-code",
+          "lethal-trifecta",
+          "claude-cowork"
+        ]
+      },
+      "score": 80,
+      "category": "Frameworks & Tools"
+    },
+    {
+      "article": {
+        "title": "5 Code Sandboxes for Your AI Agents",
+        "url": "https://www.kdnuggets.com/5-code-sandbox-for-your-ai-agents",
+        "published": "2026-01-14T18:00:28+00:00",
+        "date_verified": true,
+        "description": "A quick guide to the best code sandboxes for AI agents, so your LLM can build, test, and debug safely without touching your production infrastructure.",
+        "source": "KDnuggets",
+        "source_url": "https://www.kdnuggets.com/feed",
+        "author": "Abid Ali Awan",
+        "tags": []
+      },
+      "score": 80,
+      "category": "Production Use Cases"
+    },
+    {
+      "article": {
+        "title": "How to Build a Stateless, Secure, and Asynchronous MCP-Style Protocol for Scalable Agent Workflows",
+        "url": "https://www.marktechpost.com/2026/01/14/how-to-build-a-stateless-secure-and-asynchronous-mcp-style-protocol-for-scalable-agent-workflows/",
+        "published": "2026-01-15T02:31:24+00:00",
+        "date_verified": true,
+        "description": "<p>In this tutorial, we build a clean, advanced demonstration of modern MCP design by focusing on three core ideas: stateless communication, strict SDK-level validation, and asynchronous, long-running operations. We implement a minimal MCP-like protocol using structured envelopes, signed requests, and Pydantic-validated tools to show how agents and services can interact safely without relying on persistent [&#8230;]</p>\n<p>The post <a href=\"https://www.marktechpost.com/2026/01/14/how-to-build-a-stateless-secure-and-asynchronous-mcp-style-protocol-for-scalable-agent-workflows/\">How to Build a Stateless, Secure, and Asynchronous MCP-Style Protocol for Scalable Agent Workflows</a> appeared first on <a href=\"https://www.marktechpost.com\">MarkTechPost</a>.</p>",
+        "source": "MarkTechPost",
+        "source_url": "https://www.marktechpost.com/feed/",
+        "author": "Asif Razzaq",
+        "tags": [
+          "Editors Pick",
+          "Model Context Protocol (MCP)",
+          "Staff",
+          "Tutorials"
+        ]
+      },
+      "score": 75,
+      "category": "Frameworks & Tools"
+    },
+    {
+      "article": {
+        "title": "Community-powered security with AI: an open source framework for security research",
+        "url": "https://github.blog/security/community-powered-security-with-ai-an-open-source-framework-for-security-research/",
+        "published": "2026-01-14T23:45:09+00:00",
+        "date_verified": true,
+        "description": "<p>Announcing GitHub Security Lab Taskflow Agent, an open source and collaborative framework for security research with AI.</p>\n<p>The post <a href=\"https://github.blog/security/community-powered-security-with-ai-an-open-source-framework-for-security-research/\">Community-powered security with AI: an open source framework for security research</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+        "source": "The GitHub Blog",
+        "source_url": "https://github.blog/feed/",
+        "author": "Kevin Backhouse",
+        "tags": [
+          "AI & ML",
+          "Open Source",
+          "Security",
+          "agentic AI",
+          "GitHub Security Lab",
+          "MCP",
+          "open source"
+        ]
+      },
+      "score": 70,
+      "category": "Frameworks & Tools"
+    }
+  ]
+}
